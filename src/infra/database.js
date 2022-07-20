@@ -1,5 +1,3 @@
-const Database = {
+export const Database = {
     Tips: []
 }
-
-export default Database
