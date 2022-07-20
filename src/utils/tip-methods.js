@@ -7,7 +7,7 @@ class TipsMethods {
 
     static tips() {
         let random = parseInt(Math.random() * (Database.Tips.length))
-        return Object.values(Database.Tips[random])
+        return Database.Tips[random]
     }
 } 
 
