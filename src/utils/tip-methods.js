@@ -2,7 +2,7 @@ import { Database } from "../infra/database.js";
 
 class TipsMethods {
     static create(tip) {
-        return Database.Tips = [...Database.Tips, tip]
+        return Database.Tips = [...Database.Tips, ...tip]
     }
 
     static tips() {
